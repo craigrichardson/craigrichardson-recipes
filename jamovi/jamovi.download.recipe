@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
-		<string>https://www.jamovi.org/downloads/jamovi-0.8.6.1-macos.dmg</string>
+		<string>https://www.jamovi.org/downloads/latest?p=macos</string>
 		<key>NAME</key>
 		<string>jamovi</string>
 	</dict>
