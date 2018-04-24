@@ -21,9 +21,9 @@
 				<string>testing</string>
 			</array>
 			<key>description</key>
-			<string>jamovi is a new “3rd generation” statistical spreadsheet. designed from the ground up to be easy to use, jamovi is a compelling alternative to costly statistical products such as SPSS and SAS.</string>
+			<string>jamovi is a new "3rd generation" statistical spreadsheet. designed from the ground up to be easy to use, jamovi is a compelling alternative to costly statistical products such as SPSS and SAS.</string>
 			<key>developer</key>
-			<string>Jonathon Love</string>
+			<string>Jamovi Project</string>
 			<key>display_name</key>
 			<string>jamovi</string>
 			<key>name</key>
