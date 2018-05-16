@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comment</key>
+	<string></string>
+	<key>Description</key>
+	<string>Installs the latest version of Vivi.</string>
+	<key>Identifier</key>
+	<string>com.github.craigrichardson.install.Vivi</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Vivi</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.craigrichardson.download.Vivi</string>
+	<key>Process</key>
+    <array>
+        <dict>
+            <key>Processor</key>
+            <string>Installer</string>
+            <key>Arguments</key>
+            <dict>
+                <key>pkg_path</key>
+                <string>%pathname%/Vivi.pkg</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
+            <string>EndOfCheckPhase</string>
+        </dict>
+    </array>
+</dict>
+</plist>
