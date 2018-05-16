@@ -35,10 +35,12 @@
 			<string>EndOfCheckPhase</string>
 		</dict>
 		<dict>
+			<key>Processor</key>	
+			<string>CodeSignatureVerifier</string>
 			<key>Arguments</key>
 			<dict>
 				<key>input_path</key>
-				<string>%pathname%/Vivi.app</string>
+				<string>%pathname%/Vivi.pkg</string>
 				<key>expected_authority_names</key>
                 <array>
                     <string>Developer ID Installer: VIVI AUSTRALIA PTY LTD (3NRCUJ8TJC)</string>
@@ -47,8 +49,6 @@
                 </array>			
 			
 			</dict>
-			<key>Processor</key>
-			<string>CodeSignatureVerifier</string>
 		</dict>
 		<dict>
 			<key>Arguments</key>
