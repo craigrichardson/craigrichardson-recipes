@@ -14,7 +14,7 @@
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
 		<string>Vivi</string>
- recipe		<dict>
+ 			<dict>
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
