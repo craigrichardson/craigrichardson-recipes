@@ -14,8 +14,7 @@
 		<string>apps/%NAME%</string>
 		<key>NAME</key>
 		<string>Vivi</string>
-		<key>pkginfo</key>
-		<dict>
+ recipe		<dict>
 			<key>catalogs</key>
 			<array>
 				<string>testing</string>
@@ -38,6 +37,18 @@
 	<string>com.github.craigrichardson.download.Vivi</string>
 	<key>Process</key>
 	<array>
+		 <dict>
+            <key>Processor</key>
+            <string>MunkiPkginfoMerger</string>
+            <key>Arguments</key>
+            <dict>
+                <key>additional_pkginfo</key>
+                <dict>
+                    <key>minimum_os_version</key>
+                    <string>%minimum_os_version%</string>
+                </dict>
+            </dict>
+        </dict>
 		<dict>
 			<key>Arguments</key>
 			<dict>
