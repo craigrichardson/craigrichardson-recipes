@@ -11,7 +11,7 @@
 	<key>Input</key>
 	<dict>
 		<key>DOWNLOAD_URL</key>
-		<string>https://api.vivi.io/mac-pkg</string>
+		<string>https://api.vivi.io/mac</string>
 		<key>NAME</key>
 		<string>Vivi</string>
 	</dict>
